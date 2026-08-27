@@ -1,0 +1,17 @@
+name: Feature request
+description: A change or addition you want in Loomrume
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: want
+    attributes:
+      label: What should exist
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it helps
+    validations:
+      required: true

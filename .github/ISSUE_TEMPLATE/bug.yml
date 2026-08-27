@@ -1,0 +1,24 @@
+name: Bug report
+description: Something in Studio, lessons, or the site is broken
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: happened
+    attributes:
+      label: What happened
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Where
+      description: Browser and page (Studio, a lesson, an example…).
+    validations:
+      required: true
